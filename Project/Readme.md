@@ -1,3 +1,41 @@
+# Overview
+In this project I seek to analyze job postings data for specifically data related jobs. This includes Data Analysts, Data Scientists, Data Engineers and many more titles. I am seeking to visualize the information so that I can gleam insights, and practice making presentation ready graphs through the use of matplotlib and seaborn. 
+
+The data I am using comes from Luke Barousse's data that he collected for his Data Analytics with Python course. I will use the data differently than him, filtering out for Canadian jobs where the data is good enough to use. If not, I will switch over to the American data.
+
+# The Questions
+1. What are the most in demand skills for the most popular data roles?
+2. Are any skills becoming obsolete? Are any skills on the rise?
+3. How well do jobs pay for various titles? How much does each skill net you?
+4. Specifically for Data Analysts, what are the most valuable skills to learn?
+
+# Tools I Used
+1. Python
+2. matplotlib
+3. seaborn
+4. pandas
+5. ast
+6. NumPy
+7. Git and GitHub
+
+# Data Preparation and Cleanup
+To prepare the data, the first thing I did was to drop NA values that were unnecessary. For example:
+
+```Python
+#Cleaning the data
+df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
+df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
+```
+
+I also filtered out the data for Canadian or United States roles, as well as filtering for only Data Analysis Roles. Here's another example: 
+
+```Python
+#I only want to see American jobs in Data Analysis, so I'll filter for them
+df_DA_US = df[(df['job_country'] == 'United States') & (df['job_title_short'] == 'Data Analyst')].copy()
+```
+
+I also filtered the skills required, and narrowed them down to a more managable list ranked by how often they appear in job listings.
+
 # The Analysis
 
 ## 1. What are the most demanded skills for the most popular data roles?
@@ -149,3 +187,19 @@ plt.show()
 
 ![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)
 
+
+# What I Learned
+- I learned how to deal with problems in the code that don't give clear error messages and do not have straightforward solutions. For instance I loaded in data that I thought would be in the form of a list, but instead it was a string that looked like a list. It looked something like this: '[python, excel, SQL]' and was just a string.
+- I learned not to give up on a problem, as commiting to GitHub would cause an unknown error, and I learned to use the console to commit instead, bypassing the error.
+- I learned to use AI to find errors in code, and suggest new lines that would fix my problems. This didn't always work but the suggestions I got were helpful to me, as I learned more about libraries like seaborn and learned new options to play around with. This made my graphing skills improve, and I solved the issues I was having.
+- I learned how to ask for help with coding problems. I asked people who are experienced with coding, even if not with data specific problems. They gave me insights and asked questions that brought me to solutions and more information about what I was working with. Through attempting to understand problems, I learned more and more about how various libraries work and what can cause them to break and return an error.
+- I learned that I don't have to fear warnings, as I can ask if this will effect the code later down the line, and if the answer is no, I don't have to spend time making sure every warning disappears. Warnings can be insightful but they are not like errors. You can work towards your goal and take note of what a warning is telling you. For this project the warnings I got in part 2 did not effect that part, or any other part later down the line.
+
+# Insights
+- From this project I learned that Python, SQL, and Tableau are extremely useful skills. I have knowledge of Python and SQL, but I can still go deeper into these languages to better my skill level. 
+- Tableau is something I am not too familiar with, so that is a good place to start to continue my learning. This project sent me down a road where I learned that Tableau is easier to learn than a programming language, so a job offer that lists Tableau is within my grasp.
+- I also learned that python and SQL are still in demand and are not trending downwards. This means they are not likely to become obsolete skills, and I have another reason to invest more time into learning them.
+- I also learned that for higher paying jobs, I may have to learn rare skills that are not frequently requested in many job listings. These skills do not have a general use, so it would be better for me to save my time for Python, SQL and Tableau until I need a rare skill when the time comes.
+
+# Conclusion
+I started out not knowing exactly what this data would hold, or what skill level I would be at by the end. I learned Python in university as well as some other data related skills, but I learned a lot of specific knowledge about data related python libraries like pandas. I learned very important coding skills, such as solving errors in the code, and asking both AI and people with work experience for help. I learned to help myself as well, thinking about my code and analyzing what is going wrong, and what could be better. I learned that sometimes, as in the case with Canadian job data, there is no more you can learn from the data, and you have to broaden your search through the data in order to gain insights. I learned that Python, SQL and Tableau are important skills to know if you want a high paying job, and they are frequently requested, so as a job seeker I need to deepen my understanding of these languages and their various libraries. I learned that even though this project took a lot of time and a ton of effort, I was able to complete it and even add onto it further than I expected. I persevered through the tough parts and in the end I was rewarded with experience working with code and dataframes and I was rewarded with insights from the data.
