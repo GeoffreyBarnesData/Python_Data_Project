@@ -133,3 +133,19 @@ plt.show()
 -I learned that sometimes, in cleaning the data you don't always have enough good data to gleam the information that you need. I had to switch over to using US data instead, and I was able to create a stunning visual (above) with this data.
 
 -I learned that the highest paying skills are very niche, there are very few positions that require golang. Python for example pays much less, but it gives you more options, as it is widely requested. It is also requested in Data Science positions which I wish to eventually move into.
+
+# The Analysis
+
+## What is the most optimal skill to focus on?
+
+### Insights:
+- With this scatter plot, we can see that most of the 'programming' skills (blue in the scatterplot) tend to cluster at higher salaries than other skills. Skills like word and powerpoint are less likely to land you a high paying job. Due to how easy they are to learn and use, it is still worth having some skill in those if needed. We also learned that visualization tools like Power BI are associated with some high paying positions, Power BI as an example is in the middle of the graph, so it pays moderately well and is often but not always requested.
+
+- Python is at the top of the graph slightly to the right. This means it is a good skill to learn for higher pay, and can frequently get you a job, but the most frequently requested skill is SQL. I already have done a course on SQL so I am comfortable with it, so that bodes well for me. With the combination of my python skills and my SQL skills I should expect a higher paying job than the average, but because of my work experience I would most likely get a junior position. 
+
+- The analyst tool that is both in demand and pays well is tableau. I will likely need only one of these tools to visualize data, so tableau is the most logical place to start. Excel, primarily for its pivot table functions is a frequent requirement. The usefulness of it is in its frequency of use. If I am to work with other people, they are very likely to use excel, so teamwork likely requires excel skills. Luckily I have experience with excel from school and courses I've completed afterwards.
+
+- These insights are based off of US data, and they will not always comport with Canadian data, but I am open to working a remote job for a US based company, so these insights are still useful to me. Also the United States is generally pretty similar to Canada in a lot of aspects, so if I had better Canadian data to work with I would expect it to be similar. In playing with the data I found that the only large difference in job postings between Canada and the United States is the healthcare the company provides. Canadian companies very rarely provide healthcare based on this data but United States companies more often do.
+
+![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)
+
