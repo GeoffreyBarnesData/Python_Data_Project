@@ -69,6 +69,9 @@ plt.show
 
 ![Skills Required For Various Job Postings In Canada](Images\Skills_Required_For_Various_Job_Postings_In_Canada.png)
 
+![Skills_Required_For_Various_Job_Postings_In_Canada](https://github.com/user-attachments/assets/6f255c72-aaa7-4b98-b40d-e0446476d04d)
+
+
 ### Insights
 
 -Python is a very versitile skill that is relevant across many different job titles. If you like data but you are unsure of the role you would like to take on, python should be what you learn first.
