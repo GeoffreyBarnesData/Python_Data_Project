@@ -67,7 +67,7 @@ plt.show
 
 ### Results
 
-![Skills Required For Various Job Postings In Canada](images/Skills_Required_For_Various_Job_Postings_In_Canada.png)
+![Skills Required For Various Job Postings In Canada](Project/images/Skills_Required_For_Various_Job_Postings_In_Canada.png)
 
 ### Insights
 
