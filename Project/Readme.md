@@ -67,7 +67,8 @@ plt.show
 
 ### Results
 
-![Skills Required For Various Job Postings In Canada](Images\Skills_Required_For_Various_Job_Postings_In_Canada.png)
+![Skills_Required_For_Various_Job_Postings_In_Canada](https://github.com/user-attachments/assets/6f255c72-aaa7-4b98-b40d-e0446476d04d)
+
 
 ### Insights
 
@@ -103,7 +104,8 @@ plt.show()
 
 ### Results
 
-![Skills Likelihood in Job Posting](Images\Skills_Likelihood_in_Job_Posting.png)
+![Skills_Likelihood_in_Job_Posting](https://github.com/user-attachments/assets/ea576ff7-1655-427d-811d-71a5cbc1f3cc)
+
 
 ### Insights:
 
@@ -133,7 +135,7 @@ plt.show()
 
 ```
 
-![Salary Distribution in the top 8 Canadian Data Jobs](Images\Salary_Distribution_in_Canadian_Jobs.png)
+![Salary_Distribution_in_Canadian_Jobs](https://github.com/user-attachments/assets/de41f139-8b93-4438-9e0b-0804fe280ea0)
 
 
 ```python
@@ -164,7 +166,8 @@ plt.show()
 
 ```
 
-![Top 10 Most In-Demand Skills for Data Analysts](Images\Top_10_Highest_Paid_Skills_for_Data_Analysts.png)
+![Top_10_Highest_Paid_Skills_for_Data_Analysts](https://github.com/user-attachments/assets/62af6378-3587-45d5-8912-beb4571504f3)
+
 
 ### Insights:
 
@@ -185,7 +188,8 @@ plt.show()
 
 - These insights are based off of US data, and they will not always comport with Canadian data, but I am open to working a remote job for a US based company, so these insights are still useful to me. Also the United States is generally pretty similar to Canada in a lot of aspects, so if I had better Canadian data to work with I would expect it to be similar. In playing with the data I found that the only large difference in job postings between Canada and the United States is the healthcare the company provides. Canadian companies very rarely provide healthcare based on this data but United States companies more often do.
 
-![Most Optimal Skills for Data Analysts in the US](Images\Most_Optimal_Skills_for_Data_Analysts_in_the_US.png)
+![Most_Optimal_Skills_for_Data_Analysts_in_the_US](https://github.com/user-attachments/assets/0e170e8e-7a79-43fd-b902-cce3697fe590)
+
 
 
 # What I Learned
