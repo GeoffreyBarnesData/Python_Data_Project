@@ -168,6 +168,10 @@ plt.show()
 
 ![Top_10_Highest_Paid_Skills_for_Data_Analysts](https://github.com/user-attachments/assets/62af6378-3587-45d5-8912-beb4571504f3)
 
+As a curiousity, I checked when the work from home Junior Data Analysis jobs were most frequent. This graph I found was in line with the rest of the data roles, peaking in January.
+
+![Untitled](https://github.com/user-attachments/assets/bfc27354-cd62-4f66-9dd6-15afa563a97c)
+
 
 ### Insights:
 
